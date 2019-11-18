@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/assets/images/poolside.jpg");
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+
+    
+}
+
+.nav {
+    height: 150px;
+  
+}
+nav {
+   
+    margin: 0 auto;
+    margin-bottom: 100px;
+
+}
+
+a {
+    color: azure;
+    text-shadow: 0 0 0px #fff, 0 0 10px #fff, 0 0 10px whitesmoke, 0 0 15px whitesmoke, 0 0 20px aqua, 0 0 20px lightskyblue, 0 0 20px darkturquoise;
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+    font-size: 30px;
+    padding-top: 20px;
+    margin-right: 10px;
+    
+}
+
+h3 {
+    color: azure;
+    text-shadow: 0 0 0px #fff, 0 0 10px #fff, 0 0 10px whitesmoke, 0 0 15px whitesmoke, 0 0 20px aqua, 0 0 20px lightskyblue, 0 0 20px darkturquoise;
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+ .about {
+    font-family: 'Raleway', sans-serif;
+    color: azure;
+
+}
+
+.about {
+    text-align: center;
+    line-height: 30px;
+    background-color: #fe6061;
+    border-radius: 20px 5px 20px 5px;
+    padding: 20px;
+}
+
+img {
+    border-radius: 10%;
+}
+.image {
+   border: 5px solid azure;
+   width: 310px;
+   border-radius: 12%;
+   margin-bottom: 50px;
+   margin-left: 60px;
+    
+}
+
+form {
+    margin-bottom: 350px;
+    color: azure;
+}
+
+section {
+    padding-left: 70px;
+    border-radius: 50%;
+}
+
