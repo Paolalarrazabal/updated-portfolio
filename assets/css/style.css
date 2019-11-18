@@ -23,7 +23,7 @@ nav {
 
 }
 
-a {
+.navbar-brand {
     color: azure;
     text-shadow: 0 0 0px #fff, 0 0 10px #fff, 0 0 10px whitesmoke, 0 0 15px whitesmoke, 0 0 20px aqua, 0 0 20px lightskyblue, 0 0 20px darkturquoise;
     text-align: center;
@@ -75,6 +75,12 @@ form {
 
 section {
     padding-left: 70px;
-    border-radius: 50%;
+    border-radius: 12%;
 }
+
+.fab {
+    font-family: 'Raleway', sans-serif;
+    color: azure;
+}
+
 
