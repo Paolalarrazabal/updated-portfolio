@@ -2,10 +2,12 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    color: azure;
+    font-weight: bold;
 }
 
 body {
-    background-image: url("/assets/images/poolside.jpg");
+    background-image: url("../images/background-image2.jpeg");
     background-size: 100% 100%; 
     background-repeat: no-repeat;
 
@@ -13,30 +15,35 @@ body {
 }
 
 .nav {
-    height: 150px;
+    height: 75px;
   
 }
 nav {
    
     margin: 0 auto;
     margin-bottom: 100px;
+    
 
 }
 
 .navbar-brand {
-    color: azure;
-    text-shadow: 0 0 0px #fff, 0 0 10px #fff, 0 0 10px whitesmoke, 0 0 15px whitesmoke, 0 0 20px aqua, 0 0 20px lightskyblue, 0 0 20px darkturquoise;
     text-align: center;
     font-family: 'Bad Script', cursive;
     font-size: 30px;
     padding-top: 20px;
-    margin-right: 10px;
+    margin: 0px 10px;
+    color: azure;
+
     
 }
 
+a:hover {
+    color: #fe6061;
+}
+
 h3 {
-    color: azure;
-    text-shadow: 0 0 0px #fff, 0 0 10px #fff, 0 0 10px whitesmoke, 0 0 15px whitesmoke, 0 0 20px aqua, 0 0 20px lightskyblue, 0 0 20px darkturquoise;
+   
+   
     text-align: center;
     font-family: 'Bad Script', cursive;
     margin-bottom: 60px;
@@ -44,7 +51,7 @@ h3 {
 }
  .about {
     font-family: 'Raleway', sans-serif;
-    color: azure;
+   
 
 }
 
@@ -54,33 +61,48 @@ h3 {
     background-color: #fe6061;
     border-radius: 20px 5px 20px 5px;
     padding: 20px;
+    margin-top: 70px;
 }
 
 img {
     border-radius: 10%;
+
 }
 .image {
    border: 5px solid azure;
    width: 310px;
    border-radius: 12%;
-   margin-bottom: 50px;
-   margin-left: 60px;
+   margin: 0 auto;
+
     
 }
 
 form {
     margin-bottom: 350px;
-    color: azure;
+    
 }
 
 section {
-    padding-left: 70px;
     border-radius: 12%;
+    margin: 0 auto; 
+    width: 200px; 
 }
 
 .fab {
     font-family: 'Raleway', sans-serif;
-    color: azure;
+    margin-left: 10px;
 }
+#icons-row {
+    height: 100px;
+}
+
+#portfolio-content {
+    background-color: #fe6061;
+    padding-top: 40px;
+}
+
+
+
+
 
 
