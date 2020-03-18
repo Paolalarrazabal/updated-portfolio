@@ -6,101 +6,58 @@
     font-weight: bold;
 }
 
-body {
-    background-image: url("../images/background-image2.jpeg");
-    background-size: 100% 100%; 
-    background-repeat: no-repeat;
-
+.form {
+    padding: 5rem 12rem 12rem 12rem;
     
 }
 
-.nav {
-    height: 75px;
-    padding-top:10px;
-  
-}
-nav {
-   
-    margin: 0 auto;
-    margin-bottom: 100px;
-    
-
-}
-
-.navbar-brand {
-    text-align: center;
-    font-family: 'Bad Script', cursive;
-    font-size: 30px;
-    padding-top: 20px;
-    margin: 0px 10px;
-    color: azure;
-
+.circle {
     
 }
 
-a:hover {
-    color: #fe6061;
+/* label color */
+.input-field label {
+    color: #000;
 }
-
-h3 {
-   
-   
-    text-align: center;
-    font-family: 'Bad Script', cursive;
-    margin-bottom: 60px;
-    font-size: 40px;
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: #000;
 }
- .about {
-    font-family: 'Raleway', sans-serif;
-   
-
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
 }
-
-.about {
-    text-align: center;
-    line-height: 30px;
-    background-color: #fe6061;
-    border-radius: 20px 5px 20px 5px;
-    padding: 20px;
-    margin-top: 70px;
+/* valid color */
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
 }
-
-img {
-    border-radius: 10%;
-
+/* invalid color */
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
 }
-.image {
-   border: 5px solid azure;
-   width: 310px;
-   border-radius: 12%;
-   margin: 0 auto;
-
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #000;
+}
     
-}
 
-form {
-    margin-bottom: 350px;
-    
-}
 
-section {
-    border-radius: 12%;
-    margin: 0 auto; 
-    width: 200px; 
-}
 
-.fab {
-    font-family: 'Raleway', sans-serif;
-    margin-left: 10px;
-}
-#icons-row {
-    height: 100px;
-}
 
-#portfolio-content {
-    background-color: #fe6061;
-    padding-top: 40px;
-}
+
+
+
+ 
+
+
+
+
+
+
+
 
 
 
